@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f7fb;
+  color: #1f2937;
+}
+
+.landing {
+  display: flex;
+  height: 100vh;
+}
+
+.landing-left {
+  flex: 1;
+  background: linear-gradient(135deg, #0a3d62, #1e6091, #2a9df4);
+  color: white;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.landing-left h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.landing-left p {
+  font-size: 17px;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+.landing-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f7fb;
+}
+
+.auth-box {
+  width: 360px;
+  padding: 35px;
+  background: white;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  border-radius: 14px;
+}
+
+.auth-box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+.auth-box input:focus {
+  outline: none;
+  border-color: #1e6091;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #1e6091, #2a9df4);
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.auth-box button:hover {
+  opacity: 0.9;
+}
+
+.switch {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.switch span {
+  color: #1e6091;
+  cursor: pointer;
+  font-weight: 600;
+}

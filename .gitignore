@@ -1,0 +1,16 @@
+drf/
+
+.env
+django_project/.env
+react_project/.env
+
+__pycache__/
+*.pyc
+
+react_project/node_modules/
+node_modules/
+dist/
+build/
+
+.DS_Store
+Thumbs.db

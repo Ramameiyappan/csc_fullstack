@@ -1,0 +1,42 @@
+/* Main App */
+
+.app-container {
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f6fb;
+  min-height: 100vh;
+}
+
+/* Header */
+
+.app-header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-header h2 {
+  font-size: 20px;
+}
+
+/* Buttons */
+
+.btn {
+  padding: 8px 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background: #3498db;
+  color: #fff;
+}
+
+.btn-danger {
+  background: #e74c3c;
+  color: #fff;
+}

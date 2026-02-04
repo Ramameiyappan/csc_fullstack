@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f7fb;
+  color: #1f2937;
+}
+
+.work-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.work-form h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.work-form input,
+.work-form select {
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+.work-form input:focus,
+.work-form select:focus {
+  outline: none;
+  border-color: #1e6091;
+}
+
+.work-form button {
+  padding: 12px;
+  background: linear-gradient(135deg, #1e6091, #2a9df4);
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.work-form button:hover {
+  opacity: 0.9;
+}
