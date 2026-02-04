@@ -23,7 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config("SECRET_KEY")
 DEBUG = config("DEBUG", default=False, cast=bool)
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    "csc-fullstack.vercel.app",
+    ".onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
@@ -56,10 +61,8 @@ MIDDLEWARE = [
 
 GOOGLE_CLIENT_ID = config("GOOGLE_CLIENT_ID")
 
-CORS_ALLOW_ALL_ORIGINS = True
-
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
+    "https://csc-fullstack.vercel.app",
 ]
 
 ROOT_URLCONF = 'backend.urls'
