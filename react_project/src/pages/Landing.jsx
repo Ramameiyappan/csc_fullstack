@@ -109,6 +109,13 @@ const Landing = () => {
             required
           />
 
+          {loading && (
+            <div className="cold-start-note">
+              ⏳ If the server has been inactive, it may take 1–2 minutes to start.
+              Please wait and do not refresh or close the page.
+            </div>
+          )}
+
           <button disabled={loading}>
             {loading ? "Please wait..." : isLogin ? "Login" : "Register"}
           </button>

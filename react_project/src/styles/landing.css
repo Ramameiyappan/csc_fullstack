@@ -95,3 +95,13 @@ body {
   cursor: pointer;
   font-weight: 600;
 }
+
+.cold-start-note {
+  background: #fff3cd;
+  color: #856404;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+}
